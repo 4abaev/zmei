@@ -1,0 +1,27 @@
+.arrow-container {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". up ."
+        "left . right"
+        ". down .";
+}
+
+.btn-arrow.left {
+    grid-area: left;
+}
+
+.btn-arrow.down {
+    grid-area: down;
+}
+
+.btn-arrow.right {
+    grid-area: right;
+}
+
+.btn-arrow.up {
+    grid-area: up;
+}

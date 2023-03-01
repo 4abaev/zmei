@@ -6,6 +6,9 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@vkontakte/vk-miniapps-deploy": "^0.0.26",
+    "deploy": "^1.0.3",
+    "deploy-react": "^2.2.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -15,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build", 
+"deploy": "vk-miniapps-deploy"
   },
   "eslintConfig": {
     "extends": [
